@@ -1,0 +1,236 @@
+{
+	"pages": [
+		{
+			"path": "pages/loadingPage/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/completeInformation/index",
+			"style": {
+				"navigationBarTitleText": "完善资料",
+				"backgroundColor":"#A7B5FF",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/myInfoNew/myInfoNew",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/startPage/startPage",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/chatList/chatList",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/chatDetail/chatDetail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/myPage/index",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "我的主页"
+			}
+		},
+		{
+			"path": "pages/editFormItem/editFormItem",
+			"style": {
+				"navigationBarTitleText": "昵称",
+				"navigationStyle": "default",
+				"backgroundColor":"#A7B5FF",
+				"algin":"center"
+			}
+		},
+		{
+			"path": "pages/infoEditForm/infoEditForm",
+			"style": {
+				"navigationBarTitleText": "编辑基础资料",
+				"backgroundColor":"#A7B5FF",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/introduceEdit/introduceEdit",
+			"style": {
+				"navigationBarTitleText": "编辑个人信息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/locationPageOne/locationPageOne",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/userAgreement/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "用户协议"
+			}
+		},
+		{
+			"path": "pages/aboutMeGender/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/aboutMeBirday/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/privacyPolicy/index",
+			"style": {
+				"navigationBarTitleText": "隐私条款"
+			}
+		},
+		{
+			"path": "pages/recommendBrief/recommendBrief",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/recommendDetail/recommendDetail",
+			"style": {
+				"navigationBarTitleText": "推荐页详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/aboutMe/aboutMe",
+			"style": {
+				"navigationBarTitleText": "关于我"
+			}
+		},
+		{
+			"path": "pages/filter/filter",
+			"style": {
+				"navigationBarTitleText": "筛选"
+			}
+		},
+		{
+			"path": "pages/myInfo/myInfo",
+			"style": {
+				"navigationBarTitleText": "",
+				"backgroundColor": "#f0eeee",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+		    "path" : "pages/HM-chat/HM-chat",
+		    "style" : {
+		        "navigationBarTitleText":"Eva",
+		    	"navigationBarBackgroundColor":"#f2f2f2",
+		    	"backgroundColorTop":"#e5e5e5",
+		    	"backgroundColorBottom":"#e5e5e5",
+		    	"app-plus":{
+		    		"softinputNavBar":"none",
+		    		"bounce":"none"
+		    	}
+		    }
+		},
+		{
+		    "path" : "pages/HM-chat/HM-details/HM-details",
+		    "style" : {
+				"navigationBarBackgroundColor":"#cf3c35",
+				"navigationBarTextStyle":"white",
+				"navigationBarTitleText":"红包",
+				"backgroundColorTop":"#cf3c35",
+				"backgroundColorBottom":"#fff"
+			}
+		},
+		{
+		    "path" : "pages/HM-chat/HM-hand/HM-hand",
+		    "style" : {
+		    	"navigationBarBackgroundColor":"#cf3c35",
+		    	"navigationBarTextStyle":"white",
+		    	"navigationBarTitleText":"发红包",
+		    	"backgroundColorTop":"#cf3c35",
+		    	"backgroundColorBottom":"#fff",
+				"app-plus":{
+					"softinputNavBar":"none",
+					"bounce":"none"
+				}
+		    }
+		},
+		{
+			"path": "pages/social/social"
+		},
+		{
+			"path": "pages/adder/adder"
+		}
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "拍拖青年",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		// "selectedColor":"#79D5AD",
+		"selectedColor":"#879BFF",
+		"color": "#999999",
+		"backgroundColor":"#ffffff",
+		"fontSize":"22px",
+		"iconWidth":"26px",
+		"spacing":"12px",
+		"borderStyle": "white",
+		"height":"90px",
+		"list": [
+		{
+			"pagePath":"pages/recommendBrief/recommendBrief",
+			"iconPath": "static/tabbar-icon/Recommend/Recommend.png",
+			"selectedIconPath": "static/tabbar-icon/Recommend/Recommend-active.png",
+			"text": "推荐"
+		},{
+			"pagePath":"pages/social/social",
+			"iconPath": "static/tabbar-icon/Social/Social.png",
+			"selectedIconPath": "static/tabbar-icon/Social/Social-active.png",
+			"text": "探索"
+		},{
+			"pagePath":"pages/adder/adder",
+			"iconPath": "static/tabbar-icon/Add/Add.png",
+			"selectedIconPath": "static/tabbar-icon/Add/Add-active.png",
+			"text": "发布"
+		},{
+			"pagePath":"pages/chatList/chatList",
+			"iconPath": "static/tabbar-icon/Message/Message.png",
+			"selectedIconPath": "static/tabbar-icon/Message/Message-active.png",
+			"text": "消息"
+		},{
+			"pagePath":"pages/myInfoNew/myInfoNew",
+			"iconPath": "static/tabbar-icon/User/User.png",
+			"selectedIconPath": "static/tabbar-icon/User/User-active.png",
+			"text": "我的"
+		}]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
